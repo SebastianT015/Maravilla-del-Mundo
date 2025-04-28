@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background: url("../imagenes/fondo.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+}
+header {
+    background:linear-gradient(to right, #f5c200, #009c3b,#002776);
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    color: #002776;
+}
+#galeria {
+	background:linear-gradient(to right, #d7d7d7, #58b49c,#3c8e74);
+	margin:0 auto;
+	padding: 20px;
+	border: 1px solid rgb(128, 64, 64);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 1140px;
+}
+#ZonaGaleria {
+    border-radius: 10px;
+	margin: 10px; 
+	padding: 30px; 
+	width:560px;
+}
+#ZonaTexto{
+	margin: 20px; 
+	padding: 30px; 
+	text-align: left;;
+	font-size: 20px;
+	color: black
+}
+img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background:linear-gradient(to right, #f5c200, #009c3b,#002776);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    clear:both;
+}
