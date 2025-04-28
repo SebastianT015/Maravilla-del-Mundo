@@ -33,7 +33,7 @@
 				    <h2>Prueba tus conocimentos</h2>
 				    <h3>Adquiridos en este blog</h3>
 					<a href="formulario.jsp">
-		         		<img src= "iconos/" width = "80" height = "80" alt = "Logo de evaluación"/>
+		         		<img src= "iconos/aprendido.png" width = "80" height = "80" alt = "Logo de evaluación"/>
 		         	</a>
 		         	
 				</aside>
